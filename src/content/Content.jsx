@@ -8,10 +8,10 @@ function Content(){
     return (
         <div>
             <Routes>
-                <Route path="/" element={ <Home /> } />
-                <Route path="/Sobre"  element={ <Sobre />} />
-                <Route path="/Projetos"  element={ <Projetos />} />
-                <Route path="/Contatos"  element={ <Contatos />} />
+                <Route path="/portfolio" element={ <Home /> } />
+                <Route path="/portfolio/Sobre"  element={ <Sobre />} />
+                <Route path="/portfolio/Projetos"  element={ <Projetos />} />
+                <Route path="/portfolio/Contatos"  element={ <Contatos />} />
             </Routes>
         </div>
     )
