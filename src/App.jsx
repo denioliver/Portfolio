@@ -1,4 +1,4 @@
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import './App.css'
 import Menu from './compenents/Menu'
 import Content from './content/Content'
@@ -8,11 +8,11 @@ function App() {
 
   return (
     <div className='app'>
-      <BrowserRouter>
+      <HashRouter>
         <Menu />
         <Content />
         <Rodape />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   )
 }
