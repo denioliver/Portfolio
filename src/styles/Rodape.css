@@ -1,0 +1,21 @@
+footer {
+    display: grid;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 0px;
+    text-align: center;
+    margin: 0;
+}
+footer > p {
+    margin: 6px;
+}
+@media(max-width: 800px){
+    footer > p {
+        font-size: 0.7em;
+        transition: 1s;
+    }
+}
