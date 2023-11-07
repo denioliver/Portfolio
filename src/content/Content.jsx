@@ -9,10 +9,10 @@ function Content(){
         <div>
             <HashRouter>
                 <Routes>
-                    <Route path="/portfolio" element={ <Home /> } />
-                    <Route path="/portfolio/Sobre"  element={ <Sobre />} />
-                    <Route path="/portfolio/Projetos"  element={ <Projetos />} />
-                    <Route path="/portfolio/Contatos"  element={ <Contatos />} />
+                    <Route path="/" element={ <Home /> } />
+                    <Route path="/Sobre"  element={ <Sobre />} />
+                    <Route path="/Projetos"  element={ <Projetos />} />
+                    <Route path="/Contatos"  element={ <Contatos />} />
                 </Routes>
             </HashRouter>
         </div>
