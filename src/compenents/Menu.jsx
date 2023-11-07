@@ -8,10 +8,10 @@ function Menu() {
                 <p>Desenvolvedor Web FrontEnd</p>
             </div>
             <nav>
-                <a href="/">Home</a>
-                <a href="Sobre">Sobre</a>
-                <a href="Projetos">Projetos</a>
-                <a href="Contatos">Contatos</a>
+                <a href="/portfolio">Home</a>
+                <a href="/portfolio/Sobre">Sobre</a>
+                <a href="/portfolio/Projetos">Projetos</a>
+                <a href="/portfolio/Contatos">Contatos</a>
             </nav>
         </div>
     )
