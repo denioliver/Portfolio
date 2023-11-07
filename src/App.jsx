@@ -8,11 +8,7 @@ function App() {
 
   return (
     <div className='app'>
-      <BrowserRouter>
-        <Menu />
-        <Content />
-        <Rodape />
-      </BrowserRouter>
+    
     </div>
   )
 }
