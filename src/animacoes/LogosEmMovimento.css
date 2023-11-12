@@ -1,0 +1,32 @@
+.logosEmMovimento {
+    width: 100%;
+    overflow: hidden;
+}
+.logos img {
+    padding: 5px 30px;
+    animation: go-back 5s infinite alternate;
+}
+.logosMenores {
+    width: 30px;
+}
+.logosMaiores {
+    width: 24px;
+}
+@keyframes go-back {
+    from {
+    transform: translateX(300px);
+    }
+    to {
+    transform: translateX(-300px);
+    }
+}
+@media (max-width: 550px) {
+    .logos img {
+        padding: 5px 20px;
+    }
+}
+@media (max-width: 450px) {
+    .logos img {
+        padding: 5px 15px;
+    }
+}
