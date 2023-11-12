@@ -3,8 +3,11 @@ import LogosEmMovimento from "../animacoes/LogosEmMovimento.jsx"
 
 function Projetos(){
     return (
-        <div className="projetos">
+        <div className="pageProjetos">
             <LogosEmMovimento />
+            <div className='projetos' >
+                <p>oi</p>
+            </div>
         </div>
     )
 }
