@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/Menu.css' 
 
 function Menu() {
@@ -8,10 +9,10 @@ function Menu() {
                 <p>Desenvolvedor Web FrontEnd</p>
             </div>
             <nav>
-                <a href="/portfolio">Home</a>
-                <a href="/portfolio/Sobre">Sobre</a>
-                <a href="/portfolio/Projetos">Projetos</a>
-                <a href="/portfolio/Contatos">Contatos</a>
+                <Link to="/">Home</Link>
+                <Link to="/Sobre">Sobre</Link>
+                <Link to="/Projetos">Projetos</Link>
+                <Link to="/Contatos">Contatos</Link>
             </nav>
         </div>
     )
