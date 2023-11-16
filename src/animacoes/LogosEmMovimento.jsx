@@ -6,7 +6,7 @@ import logoJavaScript from '../img/logo-javascript.8aeb306794f238ce651b.png'
 import logoReact from '../img/logo_react.616306ac5e060868cafc.png'
 import logoCorelDRAW from '../img/logo-coreldraw.aaaf4f990bba2517be57.png'
 import logoPhotoshop from '../img/logo-photoshopcs3.309cc5f7bbc54aba2f0f.png'
-import logotype from '../img/logotype.png'
+
 
 function LogosEmMovimento(){
 
@@ -19,7 +19,6 @@ function LogosEmMovimento(){
                 <img src={logoReact} alt="Logo React" className='logosMenores' />
                 <img src={logoCorelDRAW} alt="Logo CorelDraw" className='logosMenores' />
                 <img src={logoPhotoshop} alt="Logo PhotodhopCs3" className='logosMenores' />
-                <img src={logotype} alt="Logo PhotodhopCs3" className='logosMenores' />
             </div>
             
         </div>
