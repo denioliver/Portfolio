@@ -1,11 +1,13 @@
-
+import '../styles/Projetos.css'
+import LogosEmMovimento from "../animacoes/LogosEmMovimento.jsx"
 
 function Projetos(){
     return (
-        <div>
-            <h1>
-                
-            </h1>
+        <div className="pageProjetos">
+            <LogosEmMovimento />
+            <div className='projetos' >
+                <p>oi</p>
+            </div>
         </div>
     )
 }
