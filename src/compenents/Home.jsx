@@ -10,7 +10,7 @@ function Home(){
             </div>
             <div className='h1'>
                 <h1>
-                    Olá mundo!
+                    Hello World!
                 </h1>
             </div>
         </div>

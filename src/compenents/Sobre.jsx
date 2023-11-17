@@ -5,7 +5,7 @@ import gifSkatista from '../img/Skating.gif'
 
 function Sobre() {
 
-    const titulo = '< Óla mundo, conheçam um pouco sobre mim />'
+    const titulo = '< Conheçam um pouco sobre mim />'
 
     return (
         <div className="sobre" >

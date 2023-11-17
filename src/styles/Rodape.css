@@ -4,18 +4,24 @@ footer {
     width: 100%;
     height: auto;
     bottom: 0;
-    background-color: #1a1a1a;
     color: #fff;
     padding: 0px;
     text-align: center;
-    margin: 0;
+    margin: 0px;
 }
-footer > p {
+.rodape {
+    background-color: rgb(44, 44, 44);
+}
+.rodape > p {
     margin: 6px;
 }
 @media(max-width: 800px){
-    footer > p {
-        font-size: 0.7em;
+    footer{
+        background-color: rgba(21, 20, 20, 0.352), 0.615)
+    }
+
+    .rodape p {
+        font-size: 0.6em;
         transition: 1s;
     }
 }

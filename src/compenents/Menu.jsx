@@ -5,7 +5,7 @@ function Menu() {
     return (
         <div className="menu">
             <div className='head'>
-                <h1>Denivan Oliveira dos Santos</h1>
+                <h2>DENIVAN OLIVEIRA DOS SANTOS</h2>
                 <p>Desenvolvedor Web FrontEnd</p>
             </div>
             <nav>

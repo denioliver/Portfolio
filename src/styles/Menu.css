@@ -1,51 +1,78 @@
 .menu {
     display: flex;
+    flex-direction: column;
     margin: 0px 0px;
     padding: 10px 0px;
-    border-bottom: 1px solid #686767;
+    position: absolute;
+    right: 20px;
+    align-items: center;
 }
 .menu h1 {
-    font-size: 1.8em;
     color: #c7c7c7;
+    padding: 0;
+    margin: 3px;
+    font-size: 1.7em;
 }
 
 .head {
     max-width: 450px;
     min-width: 150px;
     padding: 0px 20px;
-    border-right: 1px solid #686767
+    text-align: end;
+
 }
 p{
-    font-size: 0.9em;
+    margin: 3px;
+    padding: 0px;
     background:linear-gradient(to right,#33ebfc,#0072f5);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-style: italic;
 }
 
 nav {
-    margin: auto;
-    padding: 20px;
+    margin: 80px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -30px;
+    top: 100px;
+    transform: skewX(15deg);
+    border-left: solid black 10px;
+    border-radius: 10px;
+    box-shadow: -3px 0px 2px white;
+    z-index: 100;
 }
 
 a {
     text-decoration: none;
+    
     font-size: 1.5em;
-    padding: 30px;
-    background:linear-gradient(to right,#3394fc,#33fcc6);
+    padding: 10px;
+    background-color: white;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    
+    border-bottom: solid rgba(184, 181, 181, 0.771) 2px;
 }
 
 a:hover {
     color: rgb(254, 254, 255);
     text-shadow: 2px 2px 5px #eb8006;
     transition: 0.5s;
+    font-size: 1.8em;
 }
 
-
+@media (max-width: 1300px){
+    nav {
+        margin: 35px;
+        right: -10px;
+        top: 80px;
+        padding: 0px;
+    }
+}
 
 @media (max-width: 800px){
     .head {
@@ -54,18 +81,19 @@ a:hover {
         margin: 0px;
         margin-right: 10px;
     }
-    .head h1 {
-        margin-top: 30px;
+    .head h2 {
+        margin-top: 5px;
+        font-size: 1.1em;
     }
-    nav {
-        margin: auto 0px;
-        padding: 0px;
-    }
+
     a {
         display: flex;
         flex-direction: column;
         margin: 6px;
-        padding: 5px;
+        padding: 0px;
         font-size: 1.1em;
+    }
+    a:hover {
+        font-size: 1.3em;
     }
 }

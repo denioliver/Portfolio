@@ -1,0 +1,44 @@
+.App {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgb(18, 18, 18), #272727);
+}
+
+#left {
+    background-color: #272727;
+    width: 100vw;
+    height: 100%;
+    position: relative;
+    right: 25%;
+    transform: skewX(40deg);
+}
+#left div {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#centro {
+    width: 5%;
+    height: 100%;
+    background: linear-gradient(#181717, #303235, #181717, #303235);
+    border-right: solid rgb(138, 135, 135) 15px;
+    border-left: double rgb(28, 27, 27) 50px;
+    position: relative;
+    right: 25%;
+    transform: skew(40deg);
+    box-shadow: 0px 0px 4px rgb(255, 255, 255);
+}
+
+@media (max-width: 800px){ 
+    #direita {
+        
+    }
+    #centro {
+        
+    }
+}
