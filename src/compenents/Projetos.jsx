@@ -6,7 +6,7 @@ function Projetos(){
         <div className="pageProjetos">
             <LogosEmMovimento />
             <div className='projetos' >
-                
+                <p>iniciando page projetos</p>
             </div>
         </div>
     )
