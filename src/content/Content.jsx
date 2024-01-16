@@ -1,5 +1,3 @@
-import './Content.css'
-
 import { Route, Routes } from "react-router-dom"
 import Home from "../compenents/Home"
 import Projetos from "../compenents/Projetos"
@@ -8,7 +6,7 @@ import Sobre from "../compenents/Sobre"
 
 function Content(){
     return (
-        <div className="content">
+        <div>
             <Routes>
                 <Route path="/" element={ <Home /> } />
                 <Route path="/Sobre"  element={ <Sobre />} />
