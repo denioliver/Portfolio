@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.91c24601.css",
-    "main.js": "/portfolio/static/js/main.7698d2cb.js",
+    "main.css": "/portfolio/static/css/main.befb24ed.css",
+    "main.js": "/portfolio/static/js/main.d6315db6.js",
     "static/media/Skating.gif": "/portfolio/static/media/Skating.1ba85717aabc694332c2.gif",
     "static/media/logo-photoshopcs3.png": "/portfolio/static/media/logo-photoshopcs3.309cc5f7bbc54aba2f0f.309cc5f7bbc54aba2f0f.png",
     "static/media/me.gif": "/portfolio/static/media/me.8ad8892696abf97b254e.gif",
@@ -11,11 +11,11 @@
     "static/media/logo-html5.png": "/portfolio/static/media/logo-html5.17a29567fb8d7aaf67b6.17a29567fb8d7aaf67b6.png",
     "static/media/logo-javascript.png": "/portfolio/static/media/logo-javascript.8aeb306794f238ce651b.8aeb306794f238ce651b.png",
     "index.html": "/portfolio/index.html",
-    "main.91c24601.css.map": "/portfolio/static/css/main.91c24601.css.map",
-    "main.7698d2cb.js.map": "/portfolio/static/js/main.7698d2cb.js.map"
+    "main.befb24ed.css.map": "/portfolio/static/css/main.befb24ed.css.map",
+    "main.d6315db6.js.map": "/portfolio/static/js/main.d6315db6.js.map"
   },
   "entrypoints": [
-    "static/css/main.91c24601.css",
-    "static/js/main.7698d2cb.js"
+    "static/css/main.befb24ed.css",
+    "static/js/main.d6315db6.js"
   ]
 }
