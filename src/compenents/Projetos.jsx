@@ -1,5 +1,4 @@
 import '../styles/Projetos.css'
-import LogosEmMovimento from "../animacoes/LogosEmMovimento.jsx"
 
 function Projetos(){
     return (
