@@ -29,16 +29,17 @@
     margin-bottom: 80px;
     padding: 3px;
 }
-.sobre img {
+.dev {
     width: 200px;
     border-radius: 45px 95px;
     float: left;
     margin: 10px;
 }
-#imgSkatista {
+.imgSkatista {
     width: 200px;
     float: right;
     border-radius: 95px 45px;
+    margin: 10px;
 }
 
 @media (max-width: 800px){

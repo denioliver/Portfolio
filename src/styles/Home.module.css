@@ -1,0 +1,26 @@
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 100vh;
+}
+
+.denivan {
+  font-size: 2.5em;
+margin: 0px;
+}
+
+.oliveira {
+  font-size: 4em;
+margin: 0px;
+}
+
+.PDesenvolvedor {
+  margin: 0;
+  padding: 0 10px;
+  background:linear-gradient(to right,#3394fc,#33fcc6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

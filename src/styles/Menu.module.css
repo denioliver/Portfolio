@@ -1,0 +1,35 @@
+.menu {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+  line-height: 15px;
+  padding: 10px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 1.3em;
+  margin: 25px;
+  padding: 5px;
+  background:linear-gradient(to right,#3394fc,#33fcc6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+
+.menu a:hover {
+  color: rgb(254, 254, 255);
+  text-shadow: 2px 2px 5px #eb8006;
+  transition: 0.5s;
+}
+
+
+
+@media (max-width: 800px){
+
+}

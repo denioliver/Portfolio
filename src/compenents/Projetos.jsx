@@ -1,11 +1,9 @@
-import '../styles/Projetos.css'
+import style from '../styles/Projetos.module.css'
 
 function Projetos(){
     return (
-        <div className="pageProjetos">
-            <div className='projetos' >
+        <div className={ style.pageProjetos } >
                 <p>iniciando page projetos</p>
-            </div>
         </div>
     )
 }
