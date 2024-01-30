@@ -54,16 +54,12 @@
 
 @media (max-width: 600px){
   .containerContatos ul {
+    margin-top: -80px;
     width: 80%;
-  }
-
-  .containerUl {
-    width: 100%;
   }
 
   .containerUl p {
     font-size: 0.7em;
-    display: inline-block;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

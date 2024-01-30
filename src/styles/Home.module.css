@@ -6,19 +6,19 @@
 }
 
 .denivan {
-  font-size: 3em;
+  font-size: 4em;
   margin: 0px;
 }
 
 .oliveira {
-  font-size: 5em;
-  margin: 0px;
+  font-size: 6em;
+  margin: -15px 0px;
 }
 
 .PDesenvolvedor {
   margin: 0;
-  padding: 0 15px;
-  font-size: 1.2em;
+  padding: 15px;
+  font-size: 1.5em;
   background:linear-gradient(to right,#3394fc,#33fcc6);
   -webkit-background-clip: text;
   background-clip: text;
@@ -31,11 +31,12 @@
     padding-top: 20px;
   }
   .denivan {
-    font-size: 2em;
+    font-size: 2.7em;
   }
   
   .oliveira {
     font-size: 4em;
+    margin: -8px 0px;
   }
   .PDesenvolvedor {
     font-size: 1em;
