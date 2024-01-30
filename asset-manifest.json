@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.befb24ed.css",
-    "main.js": "/portfolio/static/js/main.d6315db6.js",
+    "main.css": "/portfolio/static/css/main.12f24df3.css",
+    "main.js": "/portfolio/static/js/main.3a5d68ec.js",
     "static/media/Skating.gif": "/portfolio/static/media/Skating.1ba85717aabc694332c2.gif",
+    "static/media/whats.png": "/portfolio/static/media/whats.24719cd6794b440481dc.png",
+    "static/media/E-mail.png": "/portfolio/static/media/E-mail.ffb67dd45825385b058b.png",
+    "static/media/in.png": "/portfolio/static/media/in.6d1630dda437bf2aac31.png",
     "static/media/logo-photoshopcs3.png": "/portfolio/static/media/logo-photoshopcs3.309cc5f7bbc54aba2f0f.309cc5f7bbc54aba2f0f.png",
+    "static/media/00.png": "/portfolio/static/media/00.423592c57d9c1af57b48.png",
     "static/media/me.gif": "/portfolio/static/media/me.8ad8892696abf97b254e.gif",
     "static/media/logo-coreldraw.png": "/portfolio/static/media/logo-coreldraw.aaaf4f990bba2517be57.aaaf4f990bba2517be57.png",
     "static/media/logo_react.png": "/portfolio/static/media/logo_react.616306ac5e060868cafc.616306ac5e060868cafc.png",
     "static/media/logo-css3.png": "/portfolio/static/media/logo-css3.6c8e2f6c9df1aa8c548a.6c8e2f6c9df1aa8c548a.png",
+    "static/media/perfil-denivan-PhotoRoom.png": "/portfolio/static/media/perfil-denivan-PhotoRoom.7d6d2385f6ac31a41e2c.png",
     "static/media/logo-html5.png": "/portfolio/static/media/logo-html5.17a29567fb8d7aaf67b6.17a29567fb8d7aaf67b6.png",
     "static/media/logo-javascript.png": "/portfolio/static/media/logo-javascript.8aeb306794f238ce651b.8aeb306794f238ce651b.png",
     "index.html": "/portfolio/index.html",
-    "main.befb24ed.css.map": "/portfolio/static/css/main.befb24ed.css.map",
-    "main.d6315db6.js.map": "/portfolio/static/js/main.d6315db6.js.map"
+    "main.12f24df3.css.map": "/portfolio/static/css/main.12f24df3.css.map",
+    "main.3a5d68ec.js.map": "/portfolio/static/js/main.3a5d68ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.befb24ed.css",
-    "static/js/main.d6315db6.js"
+    "static/css/main.12f24df3.css",
+    "static/js/main.3a5d68ec.js"
   ]
 }
