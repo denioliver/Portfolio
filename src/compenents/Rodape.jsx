@@ -1,14 +1,12 @@
-import LogosEmMovimento from '../animacoes/LogosEmMovimento';
-import '../styles/Rodape.css'
+import style from '../styles/Rodape.module.css'
 
 
 const Rodape = () => {
     return <>
         <footer>
-        <LogosEmMovimento />
-        <div className='rodape'>
+        <div className={ style.rodape }>
 
-            <p>&copy; 2023  -  Denivan Oliveira dos Santos  -  Recife-PE</p>
+            <p>&copy; 2024  -  Denivan Oliveira dos Santos  -  Recife-PE</p>
         </div>
         </footer>
     </>

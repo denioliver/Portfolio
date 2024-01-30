@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2? family= Fira+Code:wght@300;400;500;600;700 & display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background:radial-gradient(#24304b, #090e18, #000000);
+  color: rgb(255, 254, 254);
+  font-family: 'Fira Code';
+  font-weight: 500;
+  animation: colors 60s ease infinite;
+}

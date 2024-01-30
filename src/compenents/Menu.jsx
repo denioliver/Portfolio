@@ -1,13 +1,10 @@
 import { Link } from 'react-router-dom'
-import '../styles/Menu.css' 
+import style from '../styles/Menu.module.css' 
+import imgPerfil from '../img/perfil-denivan-PhotoRoom.png'
 
 function Menu() {
     return (
-        <div className="menu">
-            <div className='head'>
-                <h2>DENIVAN OLIVEIRA DOS SANTOS</h2>
-                <p>Desenvolvedor Web FrontEnd</p>
-            </div>
+        <div className={ style.menu }>
             <nav>
                 <Link to="/">Home</Link>
                 <Link to="/Sobre">Sobre</Link>

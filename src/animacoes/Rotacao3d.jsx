@@ -7,7 +7,7 @@ export default function Rotacao3d() {
 
   useAnimationFrame((t) => {
     const rotate = Math.sin(t / 10000) * 400;
-    const y = (3 + Math.sin(t / 1000)) * 50;
+    const y = (3 + Math.sin(t / 1000)) * 35;
     if (ref.current !== null) {
     ref.current.style.transform = `translateY(${y}px) rotateX(${rotate}deg) rotateY(${rotate}deg)`;
     }
