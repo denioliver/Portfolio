@@ -4,12 +4,10 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
-  background:linear-gradient(to right, #000000, #121720, #333f57,  #191f2e, #000000);
-  background-image: url('./img/tema-black-01.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  height: 100vh;
+  background:radial-gradient(#24304b, #090e18, #000000);
   color: rgb(255, 254, 254);
   font-family: 'Fira Code';
   font-weight: 500;
+  animation: colors 60s ease infinite;
 }

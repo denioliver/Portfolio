@@ -30,6 +30,20 @@
 
 
 
-@media (max-width: 800px){
+@media (max-width: 550px){
+  .menu {
+    position: static;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    line-height: 15px;
+  }
 
+  .menu a {
+    text-decoration: none;
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px;
+  }
 }

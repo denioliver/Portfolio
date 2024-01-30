@@ -16,16 +16,6 @@
   border-radius: 0 10px 10px 0;
 }
 
-.divLeft{
-  width: 20%;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color:  rgb(109, 104, 6);
-  z-index: -1;
-}
-
 .containerContatos ul {
   display: flex;
   flex-direction: column;
@@ -62,6 +52,25 @@
   padding: 8px;
 }
 
-.logos {
-  position: absolute;
+@media (max-width: 600px){
+  .containerContatos ul {
+    width: 80%;
+  }
+
+  .containerUl {
+    width: 100%;
+  }
+
+  .containerUl p {
+    font-size: 0.7em;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .containerContatos li {
+    width: 250px;
+
+  }
 }
