@@ -1,7 +1,7 @@
 import style from'../styles/Home.module.css'
 import Rotacao3d from '../animacoes/Rotacao3d'
 
-function Home(){
+function Home() {
 
     return (
         <div className={ style.home } >
