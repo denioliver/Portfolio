@@ -11,7 +11,7 @@ function Card() {
           key={ projeto.name }
         >
           <img
-            style={ { width:'350px' } }
+            style={ { width:'320px' } }
             src={ projeto.image }
             alt="primeiro Portifolio"
             />
