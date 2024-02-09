@@ -1,8 +1,17 @@
+import { useEffect, useState } from 'react'
 import Projetos from '../list/projetos.js'
 import style from '../styles/Card.module.css'
 
 function Card() {
+  const [visible, setVisible] = useState(false)
 
+  useEffect(() => {
+    setVisible(true)
+  }, [])
+
+  if (!visible) {
+    return <span>Carregando...</span>
+  }
   return (
     <ul className={ style.ulContainer } >
       {Projetos.map((projeto) => (

@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import style from '../styles/Contatos.module.css'
 import logoZap from '../img/whats.png'
 import logoEmail from '../img/E-mail.png'
@@ -6,6 +7,16 @@ import logoGithub from '../img/00.png'
 import LogosEmMovimento from '../animacoes/LogosEmMovimento'
 
 function Contatos(){
+    const [visible, setVisible] = useState(false)
+
+    useEffect(() => {
+      setVisible(true)
+    }, [])
+  
+    if (!visible) {
+      return <span>Carregando...</span>
+    }
+
     return (
         <div className={ style.containerContatos }>
             <div className={style.containerUl}>
