@@ -11,12 +11,11 @@ function Sobre() {
         <div className={style.sobre} >
             <article>
                 <h1><code>{titulo}</code></h1>
-                <p>  Me chamo Denivan Oliveira dos Santos, nascido em 1992, sou Desenvolvedor Web FrontEnd.<img className={ style.dev } src={gifProgramador} alt="GifProgramador" />  Hoje sou aluno da turma 38 da escola Trybe, incrementando mais habilidades à minhas hardSkills para alcançar o conhecimento em desenvolvimento web FullStack, e desenvolvendo a cada dia mais minhas softSkills. Tenho como objetivo futuro me especializar no desenvolvimento web mobile para criação de aplicativos. <br /> Também trabalho com as ferramentas do CorelDraw e Photoshop. <img src={gifSkatista} alt="GifSkatista" 
-                className={ style.imgSkatista }/> <br />  Com tudo, sou um apaixonado por arte, esportes e pela tecnologias. <br />
+                <p>Meu nome é Denivan Oliveira dos Santos, nasci em 1992 e sou um Desenvolvedor Web FrontEnd, <img className={ style.dev } src={gifProgramador} alt="GifProgramador" />  atualmente aluno da turma 38 da escola Trybe, onde aprimoro minhas hardSkills em busca do conhecimento em desenvolvimento web FullStack. Tenho como meta a especialização em desenvolvimento web mobile para criação de aplicativos. Além do desenvolvimento web, possuo habilidades nas ferramentas CorelDraw e Photoshop,<img src={gifSkatista} alt="GifSkatista" 
+                className={ style.imgSkatista }/> <br /> e compartilho meu entusiasmo por arte, esportes e tecnologia. <br />
                 <br />
-                Como programador sonho em fazer parte de grandes projetos, sabe aquela sensação boa, de olhar para algo finalizado e saber que você fez parte, saber que todo o seu esforço não foi em vão, é uma sensação maravilhosa. Esse sou eu, ou melhor um pouco de quem eu sou.
+                Como programador, almejo contribuir para grandes projetos, buscando aquela gratificação de ver o resultado final e saber que meu esforço foi fundamental. Essa é a essência de quem sou: um apaixonado por desafios tecnológicos e pela realização que a programação proporciona.
                 </p>
-
             </article>
         </div>
     )
