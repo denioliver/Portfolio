@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0a128324.css",
-    "main.js": "/portfolio/static/js/main.88a52026.js",
+    "main.js": "/portfolio/static/js/main.83e453e2.js",
     "static/media/projeto-redes-sociais.png": "/portfolio/static/media/projeto-redes-sociais.cfac6d8dce3a9193d574.png",
     "static/media/Skating.gif": "/portfolio/static/media/Skating.1ba85717aabc694332c2.gif",
     "static/media/whats.png": "/portfolio/static/media/whats.24719cd6794b440481dc.png",
@@ -9,7 +9,9 @@
     "static/media/portfolio-antigo.png": "/portfolio/static/media/portfolio-antigo.86c8c94fef695b0e3f01.png",
     "static/media/E-mail.png": "/portfolio/static/media/E-mail.ffb67dd45825385b058b.png",
     "static/media/projeto-formulario.png": "/portfolio/static/media/projeto-formulario.523085318ec150231741.png",
+    "static/media/nickfestas.png": "/portfolio/static/media/nickfestas.429a232fb57451dd0e01.png",
     "static/media/in.png": "/portfolio/static/media/in.6d1630dda437bf2aac31.png",
+    "static/media/PselFront.png": "/portfolio/static/media/PselFront.3f8b92ed0bc83d870ce9.png",
     "static/media/logo-photoshopcs3.png": "/portfolio/static/media/logo-photoshopcs3.309cc5f7bbc54aba2f0f.309cc5f7bbc54aba2f0f.png",
     "static/media/00.png": "/portfolio/static/media/00.423592c57d9c1af57b48.png",
     "static/media/me.gif": "/portfolio/static/media/me.8ad8892696abf97b254e.gif",
@@ -21,10 +23,10 @@
     "static/media/logo-javascript.png": "/portfolio/static/media/logo-javascript.8aeb306794f238ce651b.8aeb306794f238ce651b.png",
     "index.html": "/portfolio/index.html",
     "main.0a128324.css.map": "/portfolio/static/css/main.0a128324.css.map",
-    "main.88a52026.js.map": "/portfolio/static/js/main.88a52026.js.map"
+    "main.83e453e2.js.map": "/portfolio/static/js/main.83e453e2.js.map"
   },
   "entrypoints": [
     "static/css/main.0a128324.css",
-    "static/js/main.88a52026.js"
+    "static/js/main.83e453e2.js"
   ]
 }
