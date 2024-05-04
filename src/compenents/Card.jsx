@@ -25,6 +25,7 @@ function Card() {
             alt="primeiro Portifolio"
             />
           <h3>{ projeto.name }</h3>
+          <p>{projeto.ultilizado}</p>
           <a
             href={ projeto.url }
             target="blank"
